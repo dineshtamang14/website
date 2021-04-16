@@ -5,12 +5,6 @@ body {
     color: #40514E;
 }
 
-.top {
-    background-color: #EAF6F6;
-    position: relative;
-    padding-top: 100px;
-}
-
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -21,6 +15,11 @@ h1 {
 p {
     line-height: 2;
 }
+
+span{
+    text-decoration: underline;
+}
+
 h2 {
     font-family: 'Montaga', serif; 
     font-size: 2.5rem;
@@ -41,13 +40,76 @@ hr {
     margin: 100px auto;
 }
 
-.middle-container {
-    
-}
-
 .bottom-container {
     background-color: #66BFBF;
     padding: 50px 0 20px;
+}
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+    position: relative;
+    bottom: 40px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#6ba1b4;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.buttom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+.contact-message {
+    width: 35%;
+    margin: 40px auto 60px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.cook-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.top {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    
 }
 
 .photo {
@@ -63,57 +125,27 @@ hr {
     top: 50px;
 }
 
-.buttom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-
-.code-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-    border-radius: 100%;
-}
-
-.skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-}
-.cook-img {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-    border-radius: 100%;
-}
-
-.footer-link {
-    color: #11999E;
-    margin: 10px 20px
-}
-.last {
-    color: #EAF6F6;
-}
-
-.btn {
-    background-color: #11999E;
-    height: 30px;
-    width: 30px;
-    bottom: 100px;
-    color: #EAF6F6;
-    border-radius: 6px;
-    position: relative;
-    bottom: 40px;
-    padding: 10px;
-    text-decoration: NONE;
-}
-
 .intro {
     width: 35%;
     margin: auto;
 }
-.contact-message {
-    width: 35%;
-    margin: 40px auto 60px;
+
+a {
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.last {
+    color: #EAF6F6;
 }
